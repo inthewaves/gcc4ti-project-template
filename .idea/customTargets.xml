@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="0a74cd7f-bf1a-4d0d-a6a4-345d08cac807" name="GCC4TI" projectName="gcc4ti_project_template">
+      <configuration id="96ab4400-1d0d-4ff5-a36e-f9ef120f58e1" name="GCC4TI" toolchainName="Default">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_GCC4TI" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>

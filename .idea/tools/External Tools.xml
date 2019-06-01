@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="GCC4TI" description="GCC4TI is a C/ASM cross compiler for the TI-89, TI-89 Titanium, TI-92 Plus and V200, derived from TIGCC." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/share/gcc4ti/bin/tigcc" />
+      <option name="PARAMETERS" value="-O2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </exec>
+  </tool>
+</toolSet>
