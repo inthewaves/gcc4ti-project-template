@@ -5,6 +5,7 @@
 
 # CLion files
 cmake-build-debug
+.idea/workspace.xml
 
 # Prerequisites
 *.d

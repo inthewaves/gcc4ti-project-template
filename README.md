@@ -5,12 +5,15 @@ the GCC4TI/TIGCC SDK.
 ## Prerequisites
 - CLion
 - [TIGCC](http://tigcc.ticalc.org/linux.html) or [GCC4TI](https://github.com/debrouxl/gcc4ti), with 
-environmental variables set up
+environmental variables set up.
 - (Optional) [TiEmu](http://lpg.ticalc.org/prj_tiemu/index.html), an emulator for TI-89/92/92+/V200PLT.
 Either use your own ROMs or use one of TiEmu's free PedRoms
 
 ## Using the template
 Clone the repo using `git clone https://github.com/kigster/cmake-project` and use it as a CLion project.
+
+We use `include_directories($ENV{TIGCC}/include/c)` in `CMakeLists.txt` to include the TIGCC libraries. Make sure you have environmental variables set up for GCC4TI/TIGCC, i.e. `TIGCC=/usr/local/share/gcc4ti` or `TIGCC=/usr/local/tigcc`. If you are unable to do that, then edit the line so that it points to the
+appropriate location.
 
 An example CLion `workspace.xml` is provided in the form of `workspace-example-xml` with custom run 
 configurations for GCC4TI and TiEmu. It provides GCC4TI and TiEmu run configurations for Linux, running
