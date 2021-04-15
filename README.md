@@ -10,7 +10,7 @@ environmental variables set up.
 Either use your own ROMs or use one of TiEmu's free PedRoms
 
 ## Using the template
-Clone the repo using `git clone https://github.com/kigster/cmake-project` and use it as a CLion project.
+Clone the repo and use it as a CLion project.
 
 We use `include_directories($ENV{TIGCC}/include/c)` in `CMakeLists.txt` to include the TIGCC libraries. Make sure you have environmental variables set up for GCC4TI/TIGCC, i.e. `TIGCC=/usr/local/share/gcc4ti` or `TIGCC=/usr/local/tigcc`. If you are unable to do that, then edit the line so that it points to the
 appropriate location.
